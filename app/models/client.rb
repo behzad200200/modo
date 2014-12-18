@@ -1,3 +1,4 @@
+require 'sellable'
 class Client < ActiveRecord::Base
-  include Sellable
+  acts_as_user
 end

@@ -1,3 +1,4 @@
+require 'sellable'
 class Contractor < ActiveRecord::Base
-  include Sellable
+  acts_as_user
 end

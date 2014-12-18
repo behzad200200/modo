@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
-
+source 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'pry'
+gem 'angular-rails-templates'
+gem 'bower-rails'
 gem 'rails', '4.1.8'
+gem 'devise'
 # Use sqlite3 as the database for Active Record
+gem 'rails-assets-angular'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
